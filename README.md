@@ -1,6 +1,16 @@
 # Site Meteorológico
 
+[![Deploy Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel&logoColor=white)](https://site-meteorologico.vercel.app/)
+![Status](https://img.shields.io/badge/Status-Online-22c55e)
+![React](https://img.shields.io/badge/React-19-20232A?logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
 Aplicação web de previsão do tempo desenvolvida com React e Vite. O projeto consulta a localização atual do usuário quando disponível, permite pesquisar cidades manualmente e exibe dados meteorológicos em cartões, gráficos e previsões por hora e por dia.
+
+## Deploy
+
+Acesse a aplicação em produção: [https://site-meteorologico.vercel.app/](https://site-meteorologico.vercel.app/)
 
 ## Funcionalidades
 
