@@ -24,7 +24,12 @@ function DailyForecastCards({ dailyForecast }) {
           {dailyForecast.map((item, idx) => (
             <DailyForecast
               key={idx}
-              day={item.date}
+              day={new Date(item.date + "T00:00:00").toLocaleDateString(
+                "pt-BR",
+                {
+                  weekday: "long",
+                },
+              )}
               icon={item.day.condition.icon}
               alt={item.day.condition.text}
               high={item.day.maxtemp_c}

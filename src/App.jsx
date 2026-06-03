@@ -121,7 +121,7 @@ function App() {
           hourlyData={weatherData?.forecast?.forecastday[0]?.hour || []}
         />
         <DailyForecastCards
-          dailyForecast={weatherData?.forecast?.forecastday || []}
+          dailyForecast={weatherData?.forecast?.forecastday.slice(1) || []}
         />
 
         <Footer />
